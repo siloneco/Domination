@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.github.siloneco</groupId>
-  <artifactId>Domination2</artifactId>
+  <artifactId>Domination</artifactId>
   <version>1.0.0</version>
 
   <name>${project.artifactId}</name>
