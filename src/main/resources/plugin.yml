@@ -1,19 +1,20 @@
-name: Domination
-version: beta-1.1
-main: jp.azisaba.silomini.domination.Domination
+name: ${project.name}
+main: net.azisaba.silo.domination.Domination
+version: ${project.version}
 author: siloneco
-description: "Domination Plugin"
+description: ${project.description}
+website: ${project.url}
 commands:
   import:
-    usage: "/{LABEL} [MapName]"
+    usage: /{LABEL} [MapName]
     aliases: ["imp"]
     permission: domination.command.import
   domination:
-    usage: "/{LABEL}"
+    usage: /{LABEL}
     aliases: ["dm"]
     permission: domination.command.domination
   chat:
-    usage: "/{LABEL} <public/private/toggle>"
+    usage: /{LABEL} <public/private/toggle>
     permission: domination.command.chat
 permissions:
   domination.command.import:
