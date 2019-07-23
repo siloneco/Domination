@@ -1,0 +1,30 @@
+name: Domination
+version: beta-1.1
+main: jp.azisaba.silomini.domination.Domination
+author: siloneco
+description: "Domination Plugin"
+commands:
+  import:
+    usage: "/{LABEL} [MapName]"
+    aliases: ["imp"]
+    permission: domination.command.import
+  domination:
+    usage: "/{LABEL}"
+    aliases: ["dm"]
+    permission: domination.command.domination
+  chat:
+    usage: "/{LABEL} <public/private/toggle>"
+    permission: domination.command.chat
+permissions:
+  domination.command.import:
+    default: op
+  domination.game.exempt:
+    default: false
+  domination.command.domination:
+    default: op
+  domination.hide.exempt.onjoin:
+    default: op
+  domination.forcejoin.exempt:
+    default: op
+  domination.command.chat:
+    default: op
